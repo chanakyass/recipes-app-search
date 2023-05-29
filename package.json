@@ -1,0 +1,26 @@
+{
+  "name": "recipes-app-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/datasource-rest": "^6.0.0",
+    "@apollo/server": "^4.7.1",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/node": "^7.22.1",
+    "@babel/preset-env": "^7.22.2",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
